@@ -1,0 +1,26 @@
+.searchBar {
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  width: 240px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: border-color 0.15s;
+}
+
+.searchBar:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.searchBar::placeholder {
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 480px) {
+  .searchBar {
+    width: 100%;
+  }
+}
