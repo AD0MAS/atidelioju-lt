@@ -68,15 +68,6 @@ src/
 - **Shared form component** — the same `TaskForm` component handles both creating and editing a task, reused via props rather than duplicated.
 - **Live-updating overdue state** — a custom `useNow` hook refreshes the current time on an interval, so a task visually flips to "overdue" the moment its due date passes, with no user interaction required.
 
-## Roadmap
-
-This is project 1 of 4 in a larger portfolio plan:
-
-1. **Task Tracker** (this project) — React fundamentals, TypeScript, component architecture
-2. **Personal Portfolio** — responsive design, visual/UX polish
-3. **Finance Tracker** — API integration, data visualization
-4. **Workout Tracker** — authentication, protected routes, full application architecture
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
