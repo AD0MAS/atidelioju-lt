@@ -1,6 +1,6 @@
 # Atidelioju.lt
 
-A task tracker web app built with React, TypeScript, and Vite — the first project in a 4-project frontend portfolio roadmap.
+A full-featured task management web app built with React, TypeScript, and Vite.
 
 **Live demo:** [atidelioju-lt.vercel.app](https://atidelioju-lt.vercel.app)
 
